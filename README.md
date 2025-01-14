@@ -45,19 +45,26 @@ The program dynamically updates the dictionary as grades are added, and it calcu
 ![Screenshot 2025-01-15 010821](https://github.com/user-attachments/assets/c9ea8c00-dd63-49b4-a7dd-1a35c0b19f8e)
 
 
-![Screenshot 2025-01-15 011900](https://github.com/user-attachments/assets/2b4820a0-950c-477c-b64b-f96d927ae8be)
-
-
-![Screenshot 2025-01-15 011437](https://github.com/user-attachments/assets/04aab6b8-8179-4ab3-b95e-76979c83a1ff)
-
-
-![Screenshot 2025-01-15 011346](https://github.com/user-attachments/assets/b22b86bd-5d45-4fd1-8213-c595e63486cf)
+![Screenshot 2025-01-15 010917](https://github.com/user-attachments/assets/361cd4f7-80b0-4dab-9db2-3234c027af08)
 
 
 ![Screenshot 2025-01-15 011331](https://github.com/user-attachments/assets/16d05743-28fe-4ad4-b126-6640f3f6d2a4)
 
 
-![Screenshot 2025-01-15 010917](https://github.com/user-attachments/assets/361cd4f7-80b0-4dab-9db2-3234c027af08)
+![Screenshot 2025-01-15 011346](https://github.com/user-attachments/assets/b22b86bd-5d45-4fd1-8213-c595e63486cf)
+
+
+![Screenshot 2025-01-15 011437](https://github.com/user-attachments/assets/04aab6b8-8179-4ab3-b95e-76979c83a1ff)
+
+
+![Screenshot 2025-01-15 011900](https://github.com/user-attachments/assets/2b4820a0-950c-477c-b64b-f96d927ae8be)
+
+
+
+
+
+
+
 
 
 
