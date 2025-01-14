@@ -1,0 +1,82 @@
+class GradeTrackerSystem:
+    def __init__(self):
+        self.grades = {}
+
+    def add_grade(self, subject, grade):
+        if subject in self.grades:
+            self.grades[subject].append(grade)
+        else:
+            self.grades[subject] = [grade]
+
+    def calculate_average(self):
+        total_score = 0
+        total_entries = 0
+        for grades in self.grades.values():
+            total_score += sum(grades)
+            total_entries += len(grades)
+        return total_score / total_entries if total_entries > 0 else 0
+
+    def get_letter_grade(self, average):
+        if average >= 90:
+            return "A"
+        elif average >= 80:
+            return "B"
+        elif average >= 70:
+            return "C"
+        elif average >= 60:
+            return "D"
+        else:
+            return "F"
+
+    def get_gpa(self, average):
+        if average >= 90:
+            return 10.0
+        elif average >= 80:
+            return 9.0
+        elif average >= 70:
+            return 8.0
+        elif average >= 60:
+            return 7.0
+        else:
+            return 5.0
+
+    def display_grades(self):
+        print("\nMarks by Subject:")
+        for subject, grades in self.grades.items():
+            print(f"{subject}: {grades}")
+        average = self.calculate_average()
+        print(f"\nOverall Average: {average:.2f}")
+        print(f"Grade: {self.get_letter_grade(average)}")
+        print(f"GPA: {self.get_gpa(average):.2f}")
+
+    def manage_grades(self):
+        while True:
+            print("\nGrade Tracker Menu")
+            print("1. Add a grade")
+            print("2. Display grades")
+            print("3. Exit")
+            
+            choice = input("Choose an option: ")
+            if choice == '1':
+                subject = input("Enter the subject name: ")
+                try:
+                    grade = float(input("Enter the marks (0-100): "))
+                    if 0 <= grade <= 100:
+                        self.add_grade(subject, grade)
+                        print("Grade added successfully.")
+                    else:
+                        print("Invalid grade. Please enter a value between 0 and 100.")
+                except ValueError:
+                    print("Invalid input. Please enter a numeric grade.")
+            elif choice == '2':
+                self.display_grades()
+            elif choice == '3':
+                print("Exiting Grade Tracker")
+                break
+            else:
+                print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    tracker = GradeTrackerSystem()
+    tracker.manage_grades()
+
