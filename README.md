@@ -8,5 +8,5 @@ Duration: NOVEMBER 30th 2024 TO JANUARY 15th 2025
 
 Overview of the project
 
-Project: Simple calculator using Python
+Project: Grade Tracker System using Python
 
